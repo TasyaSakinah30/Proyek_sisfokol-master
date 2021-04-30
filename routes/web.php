@@ -27,3 +27,4 @@ use App\Http\Controllers\HomeController;
     Route::get('/tampilRaport', [HomeController::class, 'tampilRaport']);
     Route::get('/tampilNilaiUlangan', [HomeController::class, 'tampilNilaiUlangan']);
 
+    Route::get('/tampilNilaiUlangan', [HomeController::class, 'tampilNilaiUlangan']);
